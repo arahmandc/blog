@@ -83,9 +83,9 @@ class Blog extends React.Component {
         });
     }
 
-    copyright() {
-        return "© 2020 Atik's Blog. Owned and Operated by Atikur Rahman."
-    }
+    // copyright() {
+    //     return "© 2020 Atik's Blog. Owned and Operated by Atikur Rahman."
+    // }
 
     renderDetails = (id)=>{
         var post_url = "data/blog/post-" + id + ".json";
